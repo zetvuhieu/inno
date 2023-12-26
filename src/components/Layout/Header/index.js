@@ -21,8 +21,8 @@ const Header = () => {
                                     color="inherit"
                                     underline="none"
                                     sx={{
-                                        margin: { xs: '0 8px', sm: '0' },
-                                        fontSize: { xs: '0.8rem', sm: '1.5rem' },
+                                        margin: { xs: '0 4px', sm: '0' },
+                                        fontSize: { xs: '1.3rem', sm: '1.5rem' },
                                     }}
                                 >
                                     Home
@@ -32,8 +32,8 @@ const Header = () => {
                                     color="inherit"
                                     underline="none"
                                     sx={{
-                                        margin: { xs: '0 8px', sm: '0 8px 0 16px' },
-                                        fontSize: { xs: '0.8rem', sm: '1.5rem' },
+                                        margin: { xs: '0 4px', sm: '0 8px 0 16px' },
+                                        fontSize: { xs: '1.3rem', sm: '1.5rem' },
                                     }}
                                 >
                                     Technology
@@ -43,8 +43,8 @@ const Header = () => {
                                     color="inherit"
                                     underline="none"
                                     sx={{
-                                        margin: { xs: '0 8px', sm: '0 8px 0 16px' },
-                                        fontSize: { xs: '0.8rem', sm: '1.5rem' },
+                                        margin: { xs: '0 4px', sm: '0 8px 0 16px' },
+                                        fontSize: { xs: '1.3rem', sm: '1.5rem' },
                                     }}
                                 >
                                     Contact
@@ -54,8 +54,8 @@ const Header = () => {
                                     color="inherit"
                                     underline="none"
                                     sx={{
-                                        margin: { xs: '0 8px', sm: '0 8px 0px 16px' },
-                                        fontSize: { xs: '0.8rem', sm: '1.5rem' },
+                                        margin: { xs: '0 4px', sm: '0 8px 0px 16px' },
+                                        fontSize: { xs: '1.3rem', sm: '1.5rem' },
                                     }}
                                 >
                                     About
