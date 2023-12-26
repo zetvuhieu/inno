@@ -1,0 +1,53 @@
+.banner {
+    background-image: url('../../../assets/img/banner.jpg'); 
+    background-size: cover;
+    height: 630px;
+    color: rgb(255, 255, 255); 
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.banner h2 {
+    margin-top: -200px;
+}
+
+.banner p {
+    margin-top: 40px; /* Khoảng cách giữa các đoạn văn bản */
+    text-align: center; /* Căn giữa đoạn văn bản */
+    max-width: 600px; /* Giới hạn chiều rộng của đoạn văn bản */
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.8rem;
+    color: #eef108;
+}
+
+/* Responsive styling for screens smaller than 768px (dành cho điện thoại) */
+@media (max-width: 395px) {
+    .banner {
+        background-image: url('../../../assets/img/banner_mobile.jpg'); 
+        background-size: cover;
+        height: 720px;
+        opacity: 0.8;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 767.98px) {
+    .banner {
+        background-image: url('../../../assets/img/banner_mobile.jpg'); 
+        background-size: cover;
+        height: 800px;
+        opacity: 0.8;
+    }
+}
+
+/* Responsive styling for screens between 768px và 1023.98px (dành cho máy tính bảng) */
+@media (min-width: 768px) and (max-width: 1023.98px) {
+    .banner {
+        background-image: url('../../../assets/img/banner_mobile.jpg'); 
+        background-size: cover;
+        height: 800px;
+        opacity: 0.8;
+    }
+}
